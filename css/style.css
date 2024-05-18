@@ -11,7 +11,7 @@
 *
 * ======================================================= */
 body {
-  font-family: "Yanone Kaffeesatz", Arial, sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.7;
@@ -64,7 +64,7 @@ p {
 
 h1, h2, h3, h4, h5, h6, figure {
   color: #000;
-  font-family: "Yanone Kaffeesatz", Arial, sans-serif;
+  font-family: "Poppins", sans-serif;
   font-weight: 400;
   margin: 0 0 20px 0;
 }
@@ -2000,9 +2000,9 @@ form label {
 }
 
 .parents-font{
-  font-family: "Estonia", Arial, serif;
-  font-size: 25px;
-  font-weight: bold;
+  font-family: "Poppins", sans-serif;
+  font-size: 14px;
+  font-weight: normal;
 }
 
 .tanggal{
