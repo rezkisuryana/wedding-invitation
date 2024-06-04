@@ -2337,4 +2337,37 @@ fadeIn {  from {
   background-size: cover;
 }
 
+.card {
+    background-color: #f8c1c7;
+    border-radius: 15px;
+    padding: 20px;
+    margin: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    color: #333;
+}
+.card h3, .card p {
+    margin: 0;
+}
+.card .account-number {
+    font-size: 24px;
+    font-weight: bold;
+    cursor: pointer;
+    display: inline-block;
+}
+.card .account-number:hover {
+    text-decoration: underline;
+}
+.container-card {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.col-md-8 {
+    margin-bottom: 30px;
+}
+.col-md-offset-2 {
+    margin-left: 16.66667%;
+}
+
 /*# sourceMappingURL=style.css.map */
