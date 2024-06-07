@@ -78,6 +78,7 @@
 
 	<!-- Theme style  -->
 	<link rel="stylesheet" href="css/style.css">
+	<link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
 	<!-- Modernizr JS -->
 	<script src="js/modernizr-2.6.2.min.js"></script>
@@ -98,7 +99,7 @@
 	<div id="floating-button" class="float">
 		<div class="control-center open">
 			<div class="audio-play">
-				<div data-video="orjCynGLuNFq1NfW" data-autoplay="0" data-loop="1" id="youtube-audio1"></div>
+				<div data-video="03-wizGfAjg" data-autoplay="1" data-loop="1" id="youtube-audio1"></div>
 			</div>
 			<ul class="right-sidebar">
 				<!--gallery-->
@@ -332,17 +333,16 @@
 		</div>
 	</div>
 	<div id="fh5co-health-protocol">
-<!--		<img src="images/background/blue-brush-1.jpg" alt="">-->
 		<div class="container">
 			<div class="row animate-box">
 				<div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
-					<h2>Aturan & Anjuran bagi Tamu Undangan</h2>
+					<h2>Anjuran bagi Tamu Undangan</h2>
 					<p style="color: #bf9b73">Untuk kenyamanan dan kelancaran acara, kami mengharapkan bagi tamu undangan untuk mematuhi aturan dan anjuran di bawah ini :</p>
 				</div>
-
-				<div class="col-md-8 col-md-offset-2 text-center">
+	
+				<div class="col-md-12 text-center">
 					<div class="row">
-						<div class="col-md-4 col-xs-6">
+						<div class="col-md-4 col-xs-6 col-sm-6 col-xs-12">
 							<div class="item-protocol">
 								<div class="icon">
 									<img style="padding: 10px" height="90px" width="90px" src="images/health-protocol/eating.png" alt="Adab makan minum"/>
@@ -353,7 +353,7 @@
 								</div>
 							</div>
 						</div>
-						<div class="col-md-4 col-xs-6">
+						<div class="col-md-4 col-xs-6 col-sm-6 col-xs-12">
 							<div class="item-protocol">
 								<div class="icon">
 									<img style="padding: 15px" height="100px" width="100px" src="images/health-protocol/no-shaking-hands.png" alt="Jaga jarak"/>
@@ -364,7 +364,7 @@
 								</div>
 							</div>
 						</div>
-						<div class="col-md-4 col-xs-6">
+						<div class="col-md-4 col-xs-6 col-sm-6 col-xs-12">
 							<div class="item-protocol">
 								<div class="icon">
 									<img style="padding: 10px" height="90px" width="90px" src="images/health-protocol/rug.png" alt="Sholat"/>
@@ -375,9 +375,7 @@
 								</div>
 							</div>
 						</div>
-					</div>
-					<div class="row">
-						<div class="col-md-4 col-xs-6">
+						<div class="col-md-4 col-xs-6 col-sm-6 col-xs-12">
 							<div class="item-protocol">
 								<div class="icon">
 									<img style="padding: 10px" height="90px" width="90px" src="images/health-protocol/distance.png" alt="Jaga jarak"/>
@@ -388,7 +386,7 @@
 								</div>
 							</div>
 						</div>
-						<div class="col-md-4 col-xs-6">
+						<div class="col-md-4 col-xs-6 col-sm-6 col-xs-12">
 							<div class="item-protocol">
 								<div class="icon">
 									<img style="padding: 15px" height="90px" width="90px" src="images/health-protocol/gel.png" alt="Hand Sanitizer"/>
@@ -399,7 +397,7 @@
 								</div>
 							</div>
 						</div>
-						<div class="col-md-4 col-xs-6">
+						<div class="col-md-4 col-xs-6 col-sm-6 col-xs-12">
 							<div class="item-protocol">
 								<div class="icon">
 									<img style="padding: 10px" height="90px" width="90px" src="images/health-protocol/washing-hands.png" alt="Cuci Tangan"/>
@@ -415,6 +413,24 @@
 			</div>
 		</div>
 	</div>
+	
+	<style>
+	@media (max-width: 767px) {
+		.item-protocol {
+			margin-bottom: 20px;
+		}
+		.item-protocol .icon img {
+			height: 70px;
+			width: 70px;
+		}
+		.item-protocol .description h3 {
+			font-size: 18px;
+		}
+		.item-protocol .description p {
+			font-size: 14px;
+		}
+	}
+	</style>	
 
 	<div id="fh5co-testimonial" style="background: url('images/background/repeat-background/so-white.png'); background-repeat:repeat; border-top: 1px solid #f2f2f2">
         <img height="400" class="flower-bukutamu-right" style="right: 0;top: 0;position: absolute;" src="images/background/flowers/top-right-3.svg">
@@ -422,38 +438,21 @@
         <div class="container">
             <div class="row animate-box">
                 <div class="col-md-8 col-md-offset-2 text-center fh5co-heading">
-                    <h2>Buku Tamu & Ucapan</h2>
+                    <h2>Konfirmasi kehadiran & Ucapan</h2>
                     <span style="color: #bf9b73">Doa Restu Anda merupakan karunia yang sangat berarti bagi kami.</span>
                 </div>
-            </div>
-            
-            <div class="row animate-box">
-                <div class="col-md-8 col-md-offset-2">
-                    <form id="guestbook-form">
-                        <div class="form-group">
-                            <label for="name">Nama:</label>
-                            <input type="text" id="name" class="form-control" required>
-                        </div>
-                        <div class="form-group">
-                            <label for="message">Ucapan:</label>
-                            <textarea id="message" class="form-control" rows="3" required></textarea>
-                        </div>
-                        <button type="submit" class="btn btn-primary">Kirim Ucapan</button>
-                    </form>
-                </div>
-            </div>
-
-            <div class="row animate-box">
-                <div class="col-md-8 col-md-offset-2">
-                    <div class="list-group" id="guestbook-entries">
-                        <!-- Ucapan akan ditampilkan di sini -->
-                    </div>
-                </div>
-            </div>
+            </div>   
+			<div class="row animate-box">
+				<div class="col-md-8 col-md-offset-2 text-center">
+					<a href="https://api.whatsapp.com/send?phone=6283870407492&text=Konfirmasi%20kehadiran%20untuk%20acara%20pernikahan.%20Nama:%20%3Cnama%20anda%3E%20Ucapan:%20%3Cucapan%20anda%3E" target="_blank" class="btn btn-success">
+						Konfirmasi Kehadiran & UCapan
+					</a>
+				</div>
+			</div>
         </div>
     </div>
 
-    <script>
+    <!-- <script>
         document.getElementById('guestbook-form').addEventListener('submit', function(event) {
 			event.preventDefault();
 			
@@ -485,7 +484,7 @@
 				document.getElementById('guestbook-entries').appendChild(div);
 			});
 		});
-    </script>
+    </script> -->
 
 	<footer id="fh5co-footer" role="contentinfo" style="background: url('images/background/repeat-background/witewall_3.png'); background-repeat:repeat ">
 		<div class="container">
@@ -623,8 +622,7 @@
 	function onYouTubeIframeAPIReady() {
 
 		var ctrlq1 = document.getElementById("youtube-audio1");
-		ctrlq1.innerHTML = '<img id="youtube-icon1" src=""/><div id="youtube-player1"></div>';
-		ctrlq1.style.cssText = 'width:20px;margin:0 auto;cursor:pointer;cursor:hand;display:none';
+		ctrlq1.innerHTML = '<span id="youtube-icon1" class="material-icons"></span><div id="youtube-player1"></div>';
 		ctrlq1.onclick = toggleAudio1;
 
 		player1 = new YT.Player('youtube-player1', {
@@ -643,11 +641,11 @@
 	}
 
 	function togglePlayButton1(play) {
-		document.getElementById("youtube-icon1").src = play ? "https://ngodingsolusi.github.io/the-wedding-of-rehan-maulidan/images/audio/pause.png" : "https://ngodingsolusi.github.io/the-wedding-of-rehan-maulidan/images/audio/play.png";
+		document.getElementById("youtube-icon1").innerText = play ? "pause" : "play_arrow";
 	}
 
 	function toggleAudio1() {
-		if ( player1.getPlayerState() == 1 || player1.getPlayerState() == 3 ) {
+		if (player1.getPlayerState() == 1 || player1.getPlayerState() == 3) {
 			player1.pauseVideo();
 			togglePlayButton1(false);
 		} else {
@@ -657,7 +655,7 @@
 	}
 
 	function playAudio1() {
-		if ( !(player1.getPlayerState() == 1 || player1.getPlayerState() == 3) ) {
+		if (!(player1.getPlayerState() == 1 || player1.getPlayerState() == 3)) {
 			player1.playVideo();
 			togglePlayButton1(true);
 		}
@@ -667,6 +665,9 @@
 		player1.setPlaybackQuality("small");
 		document.getElementById("youtube-audio1").style.display = "block";
 		togglePlayButton1(player1.getPlayerState() !== 5);
+		if (player1.getPlayerState() !== 1) {
+			player1.playVideo();
+		}
 	}
 
 	function onPlayerStateChange1(event) {

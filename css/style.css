@@ -2363,11 +2363,23 @@ fadeIn {  from {
     justify-content: center;
     flex-wrap: wrap;
 }
-.col-md-8 {
+/* .col-md-8 {
     margin-bottom: 30px;
 }
 .col-md-offset-2 {
     margin-left: 16.66667%;
+} */
+#youtube-audio1 {
+  width: 24px;
+  height: 24px;
+  display: block;
+  margin: 0 auto;
+  cursor: pointer;
+}
+
+#youtube-icon1 {
+  width: 100%;
+  height: 100%;
 }
 
 /*# sourceMappingURL=style.css.map */
