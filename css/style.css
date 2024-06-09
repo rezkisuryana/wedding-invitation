@@ -2350,7 +2350,7 @@ fadeIn {  from {
     margin: 0;
 }
 .card .account-number {
-    font-size: 24px;
+    font-size: 20px;
     font-weight: bold;
     cursor: pointer;
     display: inline-block;
